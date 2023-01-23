@@ -13,6 +13,10 @@
 .item-nav-mid {
     @apply mr-4 border border-transparent rounded-sm px-2 py-1;
 }
+
+.item-footer-inf {
+    @apply hidden mb-10 text-gray-600;
+}
   
 .item-nav-mid:hover {
     @apply border-white;
@@ -38,5 +42,9 @@
 
     .btn-amazon-prime {
         @apply text-xs py-0 ml-10 h-8 flex w-auto;
+    }
+
+    .item-footer-inf {
+        @apply block;
     }
 }
